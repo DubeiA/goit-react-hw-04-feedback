@@ -37,7 +37,6 @@ export function App() {
   };
 
   const handltPositive = () => {
-    console.log();
     return ((good * 100) / (good + neutral + bad)).toFixed(2);
   };
 
